@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+<dict>
+	<key>IPv4</key>
+  <dict>
+      <key>OverridePrimary</key>
+      <integer>1</integer>
+  </dict>
+	<key>PayloadDescription</key>
+	<string>Configures VPN settings</string>
+	<key>PayloadDisplayName</key>
+	<string>algo</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.vpn.managed.algo9D18FBEE-C185-5F8B-9A48-C873BB65BB8E</string>
+	<key>PayloadType</key>
+	<string>com.apple.vpn.managed</string>
+	<key>PayloadUUID</key>
+	<string>algo9D18FBEE-C185-5F8B-9A48-C873BB65BB8E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>Proxies</key>
+	<dict>
+		<key>HTTPEnable</key>
+		<integer>0</integer>
+		<key>HTTPSEnable</key>
+		<integer>0</integer>
+	</dict>
+	<key>UserDefinedName</key>
+	<string>AlgoVPN algo</string>
+	<key>VPN</key>
+	<dict>
+    <key>OnDemandEnabled</key>
+    <integer>0</integer>
+    <key>OnDemandRules</key>
+    <array>
+      <dict>
+        <key>Action</key>
+        <string>Connect</string>
+      </dict>
+    </array>
+		<key>AuthenticationMethod</key>
+		<string>Password</string>
+		<key>RemoteAddress</key>
+		<string>52.90.11.183:51820</string>
+	</dict>
+	<key>VPNSubType</key>
+	<string>com.wireguard.ios</string>
+	<key>VPNType</key>
+	<string>VPN</string>
+	<key>VendorConfig</key>
+	<dict>
+		<key>WgQuickConfig</key>
+		<string>[Interface]
+        PrivateKey = oBoW385SRlLjrAZjwKA768QLDUTFwz/6LW5G02xXAHk=
+        Address = 10.49.0.13 
+        DNS =  172.17.161.104 
+
+        [Peer]
+        PublicKey = Fp2m+VZOSJzp1Fu/Qt0S23+hEx6+f9CfR2AfY4Jj3z0=
+        PresharedKey = 6y2Ix8JjqtDgsb1PLQ6rRJBhdOMhB8L6D0EAbpipYUA=
+        AllowedIPs = 0.0.0.0/0,::/0
+        Endpoint = 52.90.11.183:51820
+</string>
+	</dict>
+</dict>  </array>
+  <key>PayloadDisplayName</key>
+  <string>AlgoVPN algo WireGuard</string>
+  <key>PayloadIdentifier</key>
+  <string>donut.local.86916A2C-29A4-56AE-869C-F22ADB2D7E43</string>
+  <key>PayloadOrganization</key>
+  <string>AlgoVPN</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>098EE9E4-8DBC-5337-B596-1DD9A8E0B47A</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
